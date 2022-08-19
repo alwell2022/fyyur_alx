@@ -1,3 +1,4 @@
+from app import app, db
 
 class Venue(db.Model):
     __tablename__ = 'venue'
